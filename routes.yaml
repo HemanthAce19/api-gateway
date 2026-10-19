@@ -1,0 +1,5 @@
+# Path prefix -> upstream. The longest matching prefix wins, and the path is forwarded unchanged.
+# ${DEMO_UPSTREAM} is read from the environment (docker compose sets it).
+routes:
+  - prefix: /orders
+    upstream: ${DEMO_UPSTREAM}

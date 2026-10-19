@@ -166,5 +166,3 @@ tests/          pytest suite
 docs/DEMO.md    how to present this project
 .10x/           design spec, ADR and the build decision log
 ```
-
-More: [how to demo this in an interview](docs/DEMO.md)

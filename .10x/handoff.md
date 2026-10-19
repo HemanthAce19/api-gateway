@@ -1,4 +1,3 @@
 # Handoff
-From: EM and Senior Engineer. To: SDE.
-Build tasks 2 to 9 in the order in decisions/engineering-manager/api-gateway.md.
-Spec: .10x/specs/2026-10-19-api-gateway-design.md. ADR: .10x/adrs/001-*.md.
+Next: push the repo, confirm CI (especially compose-smoke, which could not be run locally), then start project 2:
+Real-Time Market Data Pipeline (asyncio, Celery, Redis, pandas, WebSockets, Docker Compose).
